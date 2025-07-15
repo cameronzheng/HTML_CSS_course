@@ -1,0 +1,60 @@
+.exercise_d {
+  font-size: 16px;
+  border-width: 1px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: rgba(151, 151, 151, 0.509);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.exercise_e {
+  margin-top: 15px;
+  font-size: 12px;
+  width: 350px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 15px;
+
+  border-style: none;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(139, 139, 139, 0.442);
+}
+
+.f_text {
+  font-family: Arial;
+  color: rgb(107, 107, 107);
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+
+.f_email {
+  width: 200px;
+  height: 16px;
+  border-style: solid;
+  border-color: rgb(114, 114, 114);
+  border-width: 1px;
+  border-radius: 2px;
+  margin-bottom: 5px;
+}
+
+.f_button {
+  margin-top: 10px;
+  font-family: Arial;
+  font-size: 16px;
+  text-align: center;
+  height: 40px;
+  width: 300px;
+  background-color: rgb(18, 98, 219);
+  color: white;
+  border-style: none;
+  border-radius: 20px;
+}
+
+.f_button:hover {
+  opacity: 0.8;
+}
+

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise 14d</title>
+    <style>
+      p {
+        font-family: Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+      }
+
+      .modal-box {
+        background-color: white;
+        padding-left: 20px;
+        padding-right: 250px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-radius: 9px;
+
+      }
+
+      .modal-title {
+        font-weight: bold;
+        font-size: 32px;
+        margin-bottom: 15px;
+      }
+
+      .modal-description {
+        margin-bottom: 12px;
+      }
+
+      .close-button {
+        font-size: 12px;
+        background-color: rgb(219, 219, 219);
+        border-color: rgb(83, 83, 83);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 3px;
+      }
+    </style>
+  </head>
+  <body style="height: 3000px;">
+    <div style="
+      position: fixed;
+      width: 100px;
+      top: 0px;
+      bottom: 0px;
+      right: 0px;
+      background-color: green;
+      color: white;
+    ">
+      right sidebar
+    </div>
+
+    <div style="
+      position: fixed;
+      background-color: rgba(0, 0, 0, 0.6);
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+    ">
+      <div class="modal-box">
+        <p class="modal-title">Modal title</p>
+        <p class="modal-description">This is a modal</p>
+        <button class="close-button">Close</button>
+      </div>
+    </div>
+
+  </body>
+</html>

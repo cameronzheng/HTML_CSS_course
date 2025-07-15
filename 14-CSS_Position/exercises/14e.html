@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise 14e</title>
+    <style>
+      .facebook-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        /* padding-bottom: 5px; */
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 200px;
+        padding-right: 200px;
+      }
+
+      .profile-pic {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        object-fit: cover; 
+        margin-right: 15px;
+      }
+
+      .profile-name {
+        font-family: Arial;
+        font-weight: bold;
+      }
+
+      .left-items {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .right-items {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      button {
+        padding-left: 7px;
+        padding-right: 7px;
+        padding-bottom: 7px;
+        padding-top: 7px;
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 15px;
+
+        border-style: none;
+        border-radius: 7px;
+      }
+
+      .friend-button {
+        background-color: rgb(59, 139, 244);
+        color: white;
+        margin-right: 5px;
+      }
+
+      .message-button {
+        background-color: rgb(209, 209, 209);
+        color: black;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div style="
+      position: fixed;
+      background-color: lightblue; 
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    "></div>
+
+    <div class="facebook-header">
+      <div class="left-items">
+        <img src="images/shinji.jpeg" class="profile-pic">
+        <p class="profile-name">Shinji Ikari</p>
+      </div>
+      <div class="right-items">
+        <button class="friend-button">Add Friend</button>
+        <button class="message-button">Message</button>
+      </div>
+    </div>
+  </body>
+</html>

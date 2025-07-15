@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise 12g</title>
+    <style>
+      .profile-box {
+        display: flex;
+        flex-direction: row;
+        width: 425px;
+        margin-bottom: 15px;
+      }
+
+      .profile-image {
+        width: 100px;
+        /* background-color: lightblue; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .profile-info {
+        flex: 1;
+        /* background-color: lightpink; */
+      }
+
+      .profile-button {
+        width: 120px;
+        /* background-color: lightblue; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .follow-button {
+        background-color: rgb(41, 159, 244);
+        color: white;
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 16px;
+        border: none;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 7px;
+      }
+
+      .follow-button:hover {
+        opacity: 0.8;
+      }
+
+      .follow-button:active {
+        opacity: 0.7;
+      }
+      
+      div {
+        font-family: Arial;
+      }
+      
+      .name {
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 5px;
+      }
+      
+      .description {
+        font-size: 18px;
+        color: rgb(146, 146, 146);
+        margin-bottom: 3px;
+      }
+      
+      .popular {
+        font-size: 17px;
+        color: rgb(146, 146, 146);
+      }
+
+      img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50px;
+        object-fit: cover;
+      }
+
+      .shinji {
+        object-position: top;
+
+      }
+
+      .asuka {
+        object-position: top;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="profile-box">
+      <div class="profile-image">
+        <img src="images/shinji.jpeg" class="shinji">
+      </div>
+      <div class="profile-info">
+        <div class="name">Shinji</div>
+        <div class="description">EVA-01 pilot</div>
+        <div class="popular">Unpopular</div>
+      </div>
+      <div class="profile-button">
+        <button class="follow-button">Follow</button>
+      </div>
+    </div>
+
+    <div class="profile-box">
+      <div class="profile-image">
+        <img src="images/asuka.webp" class="asuka">
+      </div>
+      <div class="profile-info">
+        <div class="name">Asuka</div>
+        <div class="description">EVA-02 pilot</div>
+        <div class="popular">Popular</div>
+      </div>
+      <div class="profile-button">
+        <button class="follow-button">Follow</button>
+      </div>
+    </div>
+
+    <div class="profile-box">
+      <div class="profile-image">
+        <img src="images/misato.avif" class="misato">
+      </div>
+      <div class="profile-info">
+        <div class="name">Misato</div>
+        <div class="description">Nerv Operation Director</div>
+        <div class="popular">Popular</div>
+      </div>
+      <div class="profile-button">
+        <button class="follow-button">Follow</button>
+      </div>
+    </div>
+  </body>
+</html>

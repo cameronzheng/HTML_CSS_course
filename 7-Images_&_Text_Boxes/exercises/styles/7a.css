@@ -1,0 +1,25 @@
+.exercise_a {
+  width: 300px;
+  border-radius: 25px;
+  vertical-align: top;
+}
+
+.exercise_b {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: right;
+  vertical-align: top;
+
+  border-width: 2px;
+  border-style: solid;
+  border-color: red;
+}
+
+.exercise_c {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: left;
+  border-radius: 150px;
+}

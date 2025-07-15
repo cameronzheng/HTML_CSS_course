@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise 13g</title>
+    <style>
+      div {
+        font-family: Arial;
+      }
+      .tweet {
+        /* box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5); */
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+      }
+
+      .tweet-message {
+        display: flex;
+        /* background-color: lightblue; */
+        /* justify-content: center; */
+        align-items: center;
+      }
+
+      .image-column {
+        /* background-color: lightgreen; */
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+
+      .image {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        object-position: top;
+        border-radius: 25px;
+      }
+
+      .tweet-user {
+        display: flex;
+        margin-bottom: 5px;
+      }
+
+      .user {
+        font-weight: bold;
+        font-size: 16px;
+        margin-right: 7px;
+      }
+
+      .username {
+        font-size: 16px;
+        color: rgb(137, 137, 137);
+      }
+      
+      .tweet-description {
+        font-size: 15px;
+      }
+
+      .tweet-attachment {
+        display: flex;
+        justify-content: end;
+        padding-right: 10px;
+      }
+
+      .youtube-thumbnail {
+        width: 50px;
+        height: 50px;
+        background-color: rgb(103, 103, 103);
+      }
+
+      .youtube-img {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+      }
+
+      .youtube-box {
+        display: flex;
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 8px;
+        overflow: hidden;
+      }
+      
+      .youtube-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-width: 1px;
+      }
+
+      .youtube-link {
+        color: gray;
+        margin-bottom: 5px;
+      }
+
+      .youtube-link,
+      .youtube-description {
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="tweet">
+      <div class="tweet-message">
+        <div class="image-column">
+          <img src="images/shinji.jpeg" class="image">
+        </div>
+        <div>
+          <div class="tweet-user">
+            <div class="user">Shinji Ikari</div>
+            <div class="username">@idontwanttogetintherobot</div>
+          </div>
+          <div class="tweet-description">What up NERV, put me in the fuckin robot</div>
+        </div>
+      </div>
+      <div class="tweet-attachment">
+        <div class="youtube-box">
+          <div class="youtube-thumbnail">
+            <img class="youtube-img" src="images/cruel_angel_thesis.jpg">
+          </div>
+          <div class="youtube-info">
+            <div class="youtube-link">youtube.com</div>
+            <div class="youtube-description">Cruel Angel's Thesis (Director's Cut)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exericise 15e</title>
+    <style>
+      .item-container {
+        display: inline-block;
+        position: relative;
+        background-color: gray;
+        width: 400px;
+        height: 400px;
+      }
+
+      .item-image {
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+        object-position: top;
+      }
+
+      .item-discount {
+        font-family: Arial;
+        font-size: 20px;
+        background-color: black;
+        color: white;
+        position: absolute;
+        top: 10px;
+        right: 0;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 13px;
+        padding-right: 13px;
+      }
+
+      .cart-overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(255, 255, 255, 0.694);
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .add-to-cart {
+        font-family: Arial;
+        font-size: 15px;
+        border-style: solid;
+        border-color: black;
+        background-color: white;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="item-container">
+      <img src="images/big_nmixx_fan.jpg" class="item-image">
+      <div class="item-discount">-20% OFF</div>
+      <div class="cart-overlay">
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+  </body>
+</html>

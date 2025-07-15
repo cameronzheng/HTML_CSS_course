@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise 13c</title>
+    <style>
+      div {
+        font-family: Arial;
+      }
+      .mailbox {
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+        border-style: none;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 12px;
+        padding-bottom: 25px;
+      }
+
+      .inbox {
+        color: gray;
+        margin-bottom: 15px;
+      }
+      
+      .mail {
+        display: flex;
+        flex-direction: row;
+      }
+      
+      .mail-picture {
+        /* background-color: lightpink; */
+        width: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .picture {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        object-fit: cover;
+        object-position: top;
+        margin-right: 10px;
+      }
+      
+
+      .mail-info {
+        flex: 1;
+        /* background-color: rgb(238, 247, 249); */
+        display: flex;
+        flex-direction: column;
+      }
+
+      .mail-title {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+      }
+
+      .mail-subject {
+        font-weight: bold;
+        font-size: 18px;
+      }
+
+      .mail-time {
+        font-size: 16px;
+        color: gray;
+      }
+
+      .mail-summary {
+        font-weight: bold;
+        margin-bottom: 2px;
+      }
+
+      .mail-text {
+        font-size: 15px;
+        color: gray;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="mailbox">
+      <div class="inbox">ALL INBOXES</div>
+      <div class="mail">
+        <div class="mail-picture">
+          <img class="picture" src="images/asuka.webp">
+        </div>
+        <div class="mail-info">
+          <div class="mail-title">
+            <div class="mail-subject">EVA-02 Pilot Report</div>
+            <div class="mail-time">4:20 PM</div>
+          </div>
+          <div class="mail-summary">Maintenance and Supply Scheduling</div>
+          <div class="mail-text">HEY! I need my unit repaired and supplied!!!</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
